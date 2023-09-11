@@ -1,0 +1,59 @@
+Salesforce Custom Objects Metadata XML
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <nameField>SecureLoanApplicationProcess</nameField>
+    <fields>
+        <fullName>identity</fullName>
+        <label>Identity</label>
+        <length>255</length>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>address</fullName>
+        <label>Address</label>
+        <length>255</length>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>annualIncome</fullName>
+        <label>Annual Income</label>
+        <precision>18</precision>
+        <scale>2</scale>
+        <type>Currency</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>creditScore</fullName>
+        <label>Credit Score</label>
+        <type>Number</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>paymentAmount</fullName>
+        <label>Payment Amount</label>
+        <precision>18</precision>
+        <scale>2</scale>
+        <type>Currency</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>vendorName</fullName>
+        <label>Vendor Name</label>
+        <length>255</length>
+        <type>Text</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>paymentApproved</fullName>
+        <label>PaymentApproved</label>
+        <type>Boolean</type>
+        <required>true</required>
+    </fields>
+</CustomObject>
+
+User Story for Verification
+As a user,
+I want to be able to securely apply for a loan
+so I can obtain the funds I need.
