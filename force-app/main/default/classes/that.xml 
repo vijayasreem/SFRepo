@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <status>Active</status>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>your_namespace</namespace>
+    </packageVersions>
+    <type>ApexClass</type>
+    <fullName>SubsequentAdjustmentApprovalWorkflow</fullName>
+    <description>Apex class to implement the Subsequent Adjustment Approval Workflow for Checkers</description>
+    <sharingModel>ReadWrite</sharingModel>
+    <isTest>false</isTest>
+    <runAsEnabled>false</runAsEnabled>
+    <webLink>https://yourorg.my.salesforce.com/apex/SubsequentAdjustmentApprovalWorkflow</webLink>
+    <webLinkWindow>newWindow</webLinkWindow>
+    <webLinkType>url</webLinkType>
+    <webLinkLabel>Open Subsequent Adjustment Approval Workflow</webLinkLabel>
+    <webLinkPosition>fullScreen</webLinkPosition>
+    <webLinkEncodingKey>UTF-8</webLinkEncodingKey>
+</ApexClass>
